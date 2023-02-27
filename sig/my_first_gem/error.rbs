@@ -1,0 +1,10 @@
+module MyFirstGem
+  class MyError
+    attr_reader thing: Rational
+
+    def initialize: (msg: String, thing: Rational) -> void
+
+    def recommend: () { (String) -> void } -> String
+                    | () -> String
+  end
+end
